@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dane>
+    <Pracownik>
+        <idPracownik>1</idPracownik>  
+        <imie>Karol</imie>
+        <nazwisko>Maciaszek</nazwisko>
+        <pesel>123456789</pesel>   
+    </Pracownik>   
+    <Pracownik>
+        <idPracownik>2</idPracownik>  
+        <imie>Piotr</imie>
+        <nazwisko>Wojtecki</nazwisko>
+        <pesel>234567890</pesel>   
+    </Pracownik>  
+    <Pracownik>
+        <idPracownik>3</idPracownik>  
+        <imie>Abdul</imie>
+        <nazwisko>Dabdul</nazwisko>
+        <pesel>345678901</pesel>   
+    </Pracownik>
+    <Pracownik>
+        <idPracownik>4</idPracownik>  
+        <imie>Adrian</imie>
+        <nazwisko>Wilk</nazwisko>
+        <pesel>163456789</pesel>   
+    </Pracownik>
+    
+    
+    <Klient>
+        <idKlient>1</idKlient>
+        <nazwa>Biedronka</nazwa>
+        <ulica>Rzeszowska 125</ulica>
+        <kod>39-200</kod>
+        <miasto>Debica</miasto>
+        <telefon>123455678</telefon>  
+    </Klient>   
+    <Klient>
+        <idKlient>2</idKlient>
+        <nazwa>Jubilatka</nazwa>
+        <ulica>Rzeszowska 2</ulica>
+        <kod>39-200</kod>
+        <miasto>Debica</miasto>
+        <telefon>5326721</telefon>  
+    </Klient>  
+    <Klient>
+        <idKlient>3</idKlient>
+        <nazwa>Lewiatan</nazwa>
+        <ulica>Rzeszowska 1</ulica>
+        <kod>39-200</kod>
+        <miasto>Debica</miasto>
+        <telefon>9653211</telefon>  
+    </Klient>  
+    <Klient>
+        <idKlient>4</idKlient>
+        <nazwa>ABC</nazwa>
+        <ulica>Cmentarna 23</ulica>
+        <kod>39-200</kod>
+        <miasto>Dębica</miasto>
+        <telefon>123456780</telefon>  
+    </Klient>
+    <Klient>
+        <idKlient>5</idKlient>
+        <nazwa>Kaufland</nazwa>
+        <ulica>Krakowska 233</ulica>
+        <kod>39-200</kod>
+        <miasto>Dębica</miasto>
+        <telefon>33333333</telefon>  
+    </Klient>
+
+      
+          
+    <Towar>
+        <idTowar>1</idTowar>
+        <idPracownikTowar>1</idPracownikTowar>
+        <nazwaTowaru>bulka pszenna</nazwaTowaru>    
+    </Towar>
+    <Towar>
+        <idTowar>2</idTowar>
+        <idPracownikTowar>2</idPracownikTowar>
+        <nazwaTowaru>chleb pszenny</nazwaTowaru>    
+    </Towar>
+    <Towar>
+        <idTowar>3</idTowar>
+        <idPracownikTowar>3</idPracownikTowar>
+        <nazwaTowaru>chleb zytni</nazwaTowaru>    
+    </Towar>
+    <Towar>
+        <idTowar>4</idTowar>
+        <idPracownikTowar>4</idPracownikTowar>
+        <nazwaTowaru>bulka zytnia</nazwaTowaru>    
+    </Towar>
+    <Towar>
+        <idTowar>5</idTowar>
+        <idPracownikTowar>1</idPracownikTowar>
+        <nazwaTowaru>chleb mieszany</nazwaTowaru>    
+    </Towar>
+        <Towar>
+        <idTowar>6</idTowar>
+        <idPracownikTowar>2</idPracownikTowar>
+        <nazwaTowaru>bulka mieszana</nazwaTowaru>    
+    </Towar>
+    
+    <TowarZamowienia>
+        <idTowarZamowienia>1</idTowarZamowienia>
+        <idTowarTowarZamowienia>1</idTowarTowarZamowienia>
+        <idZamowienia>1</idZamowienia>
+        <ilosc>1</ilosc>
+        <cena>6</cena>
+    </TowarZamowienia> 
+    <TowarZamowienia>
+        <idTowarZamowienia>2</idTowarZamowienia>
+        <idTowarTowarZamowienia>2</idTowarTowarZamowienia>
+        <idZamowienia>2</idZamowienia>
+        <ilosc>2</ilosc>
+        <cena>4</cena>
+    </TowarZamowienia> 
+    <TowarZamowienia>
+        <idTowarZamowienia>3</idTowarZamowienia>
+        <idTowarTowarZamowienia>3</idTowarTowarZamowienia>
+        <idZamowienia>3</idZamowienia>
+        <ilosc>3</ilosc>
+        <cena>2</cena>
+    </TowarZamowienia>    
+        
+    <Zamowienia>
+        <idZamowieniaZamowienia>1</idZamowieniaZamowienia>
+        <idPracownikZamowienia>1</idPracownikZamowienia>
+        <idKlientZamowienia>1</idKlientZamowienia>
+        <idTowarZamowieniaZamowienia>1</idTowarZamowieniaZamowienia>
+    </Zamowienia> 
+    <Zamowienia>
+        <idZamowieniaZamowienia>2</idZamowieniaZamowienia>
+        <idPracownikZamowienia>2</idPracownikZamowienia>
+        <idKlientZamowienia>2</idKlientZamowienia>
+        <idTowarZamowieniaZamowienia>2</idTowarZamowieniaZamowienia>
+    </Zamowienia> 
+    <Zamowienia>
+        <idZamowieniaZamowienia>3</idZamowieniaZamowienia>
+        <idPracownikZamowienia>3</idPracownikZamowienia>
+        <idKlientZamowienia>3</idKlientZamowienia>
+        <idTowarZamowieniaZamowienia>3</idTowarZamowieniaZamowienia>
+    </Zamowienia>       
+</dane>
